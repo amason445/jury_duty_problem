@@ -5,6 +5,6 @@ I had to attend jury duty today and I found myself in a screening room with one 
 However, I had an idea for a proxy. It should be possible to enumerate the total number of juries an individual can be selected for and take the proportion against the total number of possible jury combinations.
 
 $$
-\text{Proportion Of Possible Juries} = \frac{\text{Juries Selected to Attend}}{\text{Total Number of Possible Juries}}
+\text{Proportion of Possible Juries} = \frac{\text{Juries Selected to Attend}}{\text{Total Number of Possible Juries}}
 $$
  
