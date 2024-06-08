@@ -16,3 +16,4 @@ $$
 
 ## References
 - [Combinatorics - Joy Morris](https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics/Combinatorics_(Morris))
+- [Discrete Uniform Distribution](https://en.wikipedia.org/wiki/Discrete_uniform_distribution)
