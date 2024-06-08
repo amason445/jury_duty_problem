@@ -21,7 +21,7 @@ class simulation:
     def get_tuples(self):
         outcome_list = []
         for i in range(self.candidate_pool_size, self.jury_size, -1):
-            output_tuple = tuple([i, self.proportion_function(i, self.jury_size)])
+            output_tuple = tuple([i, self.proportion_function(i, self.jury_size) * 100])
             outcome_list.append(output_tuple)
         return outcome_list
     
