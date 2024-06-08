@@ -12,3 +12,4 @@ $$
   This measures that, out of all possible juries, the proportion of possible jury combinations where I am selected. What I've found was that as the candidate pool becomes smaller that the proportion of possible juries to be selected for grows larger. This seems to reconcile my intuition and provide an anchor for the magnitude of how likely selection becomes as the candidate pool becomes smaller.
 
 ## Outcome
+[!alt_text](https://github.com/amason445/jury_duty_problem/blob/main/output.png)
