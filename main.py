@@ -13,6 +13,7 @@ class simulation:
         self.candidate_pool_size = candidate_pool_size
         self.jury_size = jury_size
 
+    # takes the proportion of possible juries to total juries where possible juries is the combinations (n-1, r-1)
     def proportion_function(self, candidate_pool_size, jury_size):
         total_juries = mth.comb(candidate_pool_size, jury_size)
         total_juries_incl_you = mth.comb(candidate_pool_size - 1, jury_size - 1)
@@ -38,7 +39,7 @@ if __name__  == "__main__":
 
     plt.plot(x,y)
 
-    plt.title("Proportion of Jury Selection to Total Juries")
+    plt.title("Proportion of Possible Juries to Total Juries")
     plt.xlabel("Number of Candidates")
     plt.ylabel("Proportion of Selected Juries (%)")
 
