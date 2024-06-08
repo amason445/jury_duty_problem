@@ -9,8 +9,8 @@ $$
 \text{Proportion of Possible Juries} = \frac{\text{Juries Selected to Attend}}{\text{Total Number of Possible Juries}}
 $$
 
-  This measures, out of all of the possible juries, the proportion of possible jury combinations where I can selected. What I've found was that as the jury candidate pool becomes smaller that the proportion of possible juries to be selected for grows larger. This reconciles my intuition and provide an anchor for the magnitude of how likely selection becomes as the candidate pool becomes smaller but falls short in assuming selection between candidates is equally likely.
-
+  This measures, out of all of the possible juries, the proportion of possible jury combinations where I can selected. What I've found was that as the jury candidate pool becomes smaller that the proportion of possible juries to be selected for grows larger. This reconciles my intuition and provide an anchor for the magnitude of how likely selection becomes as the candidate pool becomes smaller but falls short in assuming selection between candidates isn't weighted.
+  
 ## Outcome
 ![alt_text](https://github.com/amason445/jury_duty_problem/blob/main/output.png)
 
